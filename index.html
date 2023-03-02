@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practica 5</title>
+
+    <style>
+    input{
+        margin: 10px;
+    }
+
+   #enviar2{
+    background-color: blue; color: 
+            rgb(187, 216, 215); padding: 20px; border-radius: 10px; border: 0px;
+   } 
+   #enviar2:hover{
+    background-color: rgb(194, 75, 148);
+   }
+
+    </style>
+</head> <!--Termino head-->
+
+
+
+<body>
+    <form action="">
+        <label for="nombre">Nombre</label>
+        <input type="text" name="nombre" id="nombre">
+        <br><br><br>
+        <label for="apellido">Apellido</label>
+        <input type="text" name="apellido" id="apellido">
+        <br><br><br>
+        <input type="submit" value="Enviar">
+    </form>
+<hr>
+<form action="" name="forma 2"></form>
+        <fieldset>
+            <label for="nombre">Nombre</label>
+            <input type="text" required name="nombre" id="nombre">
+            
+            <label for="apellido">Apellido</label>
+            <input type="text"required name="apellido" id="apellido">
+            
+            <label for="correo">Correo</label>
+            <input type="text" required name="correo" id="correo" placeholder="Ingresa un correo valido">
+            <br>
+            <label for="edad">Edad</label>
+            <input type="number" name="edad" id="edad">
+
+            <input type="submit" value="Enviar" id="enviar2" >
+        <br>
+        <label for="lenguaje">Selecciona un lenguaje:</label>
+        <input type="radio" name="lenguaje" id="html">HTML
+        <input type="radio" name="lenguaje" id="css">CSS
+        <input type="radio" name="lenguaje" id="js">JS
+
+        
+
+        <br>
+        <label for="paises">Paises que he visitado:</label>
+        <input type="radio" name="paises" id="Taiwan">Taiwan
+        <input type="radio" name="paises" id="China">China
+        <input type="radio" name="paises" id="Guanajuato">Guanajuato
+        <input type="radio" name="paises" id="HW">HW
+        <input type="radio" name="paises" id="Brasil">Brasil
+        
+        <label for="autos">Autos</label>
+        <select name="autos" id="autos">
+            <option value="1">Chevrolet</option>
+            <option value="2">Porche</option>
+            <option value="3">Ferrari</option>
+            <option value="4">Rivian</option>
+        </select>
+    <br><br>
+    <label for="color">Color</label>
+    <input type="color" name="color" id="color">
+
+    <label for="fecha">Fecha</label>
+    <input type="date" name="fecha" id="fecha">
+    
+    
+    <label for="fecha">Hora</label>
+    <input type="time" name="hora" id="hora">
+
+    
+    <label for="cumple">Cumple</label>
+    <input type="datetime-local" name="cumple" id="cumple">
+
+    <input type="submit" value="Enviar" id="enviar2">
+    </fieldset>
+
+</body> <!--Termino body-->
+
+
+
+</html>
